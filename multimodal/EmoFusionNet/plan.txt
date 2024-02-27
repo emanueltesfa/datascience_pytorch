@@ -1,0 +1,44 @@
+EmotionRecognitionProject/
+│
+├── data/
+│   ├── raw/                  # Store the original, unmodified IEMOCAP dataset files
+│   ├── processed/            # Processed and intermediate data files
+│   │   ├── visual_features/  # Processed visual features
+│   │   ├── audio_features/   # Processed audio features
+│   │   └── text_features/    # Processed text features
+│   └── final/                # Final datasets ready for modeling
+│
+├── notebooks/                # Jupyter notebooks for exploration and reports
+│   ├── EDA.ipynb             # Exploratory Data Analysis
+│   ├── Modeling.ipynb        # Main modeling notebook
+│   └── ResultsAnalysis.ipynb # Results and interpretation notebook
+│
+├── src/                      # Source code for use in this project
+│   ├── __init__.py           # Makes src a Python module
+│   ├── data_preprocessing/   # Scripts to convert raw data into features
+│   │   ├── __init__.py
+│   │   ├── visual_preprocessing.py
+│   │   ├── audio_preprocessing.py
+│   │   └── text_preprocessing.py
+│   ├── feature_engineering/  # Scripts for feature extraction and reduction
+│   │   ├── __init__.py
+│   │   ├── pooling_methods.py
+│   │   └── temporal_modeling.py
+│   ├── models/               # Scripts to define the ML models and training procedures
+│   │   ├── __init__.py
+│   │   ├── classifier.py
+│   │   └── fusion_methods.py
+│   └── utilities/            # Helper scripts used across the project
+│       ├── __init__.py
+│       ├── data_loader.py
+│       ├── performance_metrics.py
+│       └── plot_utils.py
+│
+├── results/                  # Stored results of models, including figures and tables
+│   ├── confusion_matrices/
+│   ├── classification_reports/
+│   └── fusion_comparison/
+│
+├── environment.yml           # Conda environment file to replicate the analysis environment
+├── README.md                 # Project overview and setup instructions
+└── .gitignore                # Specifies intentionally untracked files to ignore
