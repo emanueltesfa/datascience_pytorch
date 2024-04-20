@@ -1,0 +1,141 @@
+Dataset Statistical Analysis Report
+Introduction
+This report provides a comprehensive statistical analysis of a dataset that includes various traits and demographic information. The goal is to identify potential biases in the perception of traits based on race and gender. We applied various statistical tests, including ANOVA, t-tests, and the four-fifth rule, to determine significant biases.
+
+Methodology
+One-Way ANOVA Test (Race and Traits):
+The one-way ANOVA test was used to compare the means of various traits across different racial groups. The test checks if there are any statistically significant differences between the means of three or more independent (unrelated) groups. Our analysis included racial groups identified as White, Black, and East Asian.
+
+T-Test (Gender and Traits):
+The t-test was used to compare the means of various traits between two groups determined by gender. This test assesses whether the means of two groups are statistically different from each other.
+
+Identification of Top 5 Biases:
+We ranked the biases by their p-values to identify the most significant biases in trait perception based on race and gender. The lower the p-value, the more statistically significant the bias is, indicating a stronger evidence against the null hypothesis of no effect.
+
+Adverse Impact Analysis (Four-Fifth Rule):
+The four-fifth rule was applied to identify any adverse impacts on specific races. It determines if the selection rate for any disadvantaged group is less than four-fifths (80%) of that for the group with the highest rate, suggesting potential discrimination.
+
+Results
+ANOVA Results (Race and Traits):
+The ANOVA test revealed that the perception of the trait 'Intelligent' had the most statistically significant difference across races, with a p-value of 
+1.67 × 10− 15
+This indicates a strong bias in the perception of intelligence across different races.
+
+T-Test Results (Gender and Traits):
+The t-test showed an extremely significant bias in the perception of 'Emotional', with a p-value of 
+1.03 × 10−164
+
+,indicating a substantial difference in how emotional traits are perceived between genders.
+
+Top 5 Significant Racial Biases:
+
+Intelligent (p-value: 
+1.67
+×
+1
+0
+−
+15
+1.67×10 
+−15
+ )
+Aggressive (p-value: 
+2.71
+×
+1
+0
+−
+11
+2.71×10 
+−11
+ )
+Responsible (p-value: 
+8.01
+×
+1
+0
+−
+11
+8.01×10 
+−11
+ )
+Egotistic (p-value: 
+1.44
+×
+1
+0
+−
+7
+1.44×10 
+−7
+ )
+Trustworthy (p-value: 
+3.67
+×
+1
+0
+−
+6
+3.67×10 
+−6
+ )
+Top 5 Significant Gender Biases:
+
+Emotional (p-value: 
+1.03
+×
+1
+0
+−
+164
+1.03×10 
+−164
+ )
+Caring (p-value: 
+6.75
+×
+1
+0
+−
+105
+6.75×10 
+−105
+ )
+Egotistic (p-value: 
+5.72
+×
+1
+0
+−
+103
+5.72×10 
+−103
+ )
+Aggressive (p-value: 
+6.29
+×
+1
+0
+−
+101
+6.29×10 
+−101
+ )
+Kind (p-value: 
+3.68
+×
+1
+0
+−
+84
+3.68×10 
+−84
+ )
+Races with Adverse Impact:
+Racial groups 0, 2, 4, and 5 were found to have adverse impacts, as determined by the four-fifth rule.
+
+Interpretation
+The analysis suggests that there are significant biases in the perception of traits based on both race and gender. The 'Intelligent' trait is perceived very differently across racial lines, which may reflect stereotypes or systemic biases. Similarly, 'Emotional' and 'Caring' traits showed massive gender biases, possibly reflecting traditional gender roles. It's critical to recognize these biases to address them effectively, promoting fairness and equality in social perceptions.
+
+Conclusion
+The statistical analyses reveal deeply ingrained biases that can have profound implications in various sectors, including employment, education, and social services. By identifying and understanding these biases, we can work towards mitigating their effects and fostering a more equitable society.
